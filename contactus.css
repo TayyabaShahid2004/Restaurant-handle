@@ -1,0 +1,59 @@
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.image{
+    width: 300px;
+    height: 300px;
+}
+.image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 3px;
+     box-shadow: 4px 4px 5px rgba(0,0,0,0.55);
+
+;
+   
+}
+.contact ,.talk{
+     gap: 20px;
+}
+.talk{
+    display:flex;
+    flex-direction: column;
+}
+.contact{
+    margin-top: 30px;
+   
+}
+.talk h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.talk button{
+    background-color: aqua;
+    border-radius: 5px;
+}
+@media  all and (max-width:780px){
+    .contact{
+        flex-direction: column;
+    }
+    .image{
+    width: 200px;
+    height: 200px;
+}
+.image img{
+    height: 80%;
+    width: 80%;
+    object-fit: cover;
+    padding-left: 0;
+    
+}
+}
+
+
+
